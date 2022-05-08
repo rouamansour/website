@@ -1,0 +1,37 @@
+#bloc_page
+{
+    width: 1000px;
+    margin: auto;
+}
+.responsive
+{
+    width: 50%;
+    height: auto;
+}
+h2
+{
+    font-size:5vw;
+}
+p
+{
+    font-size:2vw;
+}
+div.example {
+    padding: 20px;
+  }
+  
+  @media screen and (min-width: 601px) {
+    div.example {
+      font-size: 80px;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    div.example {
+      font-size: 30px;
+    }
+  }
+  div.p
+  {
+      float: right;
+  }
